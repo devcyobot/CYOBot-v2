@@ -13,6 +13,12 @@ We also took inspiration from ESP32-S3-Korvo-2 V3.0 to design the PCB's audio mo
 
 The 3D printing parts are improved and extended to different robotic designs: wheels (Ackermann and leg-wheel hybrid), quadruped, humanoid, and game console. To seamlessly switch between designs, we decouple the electronics, such that design-dependent electronics are grouped into a separate PCB and placed within the mechanical frame of each design, called mechanical board.
 
+# Instruction
+The `hardware/mechanical/STLs` directory includes the STL files for 3D printing designs of all robot bases and brain. Assembly instruction can be found here:
+* For Crawler: [Instruction with Python](https://youtu.be/2CuqHpGuNUw), [Instruction with Block](https://youtu.be/lpqW0EeU5Hk)
+* For Wheeler: [Instruction with Python](https://youtu.be/wRgvuCD4Dzg), [Instruction with Block](https://youtu.be/jAzg2xmtxaY)
+* For Console: [Instruction](https://youtu.be/jlgunPV41hM)
+
 # Technical Specification
 The following is the technical specification of the new CYOBot v2 brain design:
 <img src="assets/cyobot-v2-brain-techspec.png" alt="drawing" width="500">
